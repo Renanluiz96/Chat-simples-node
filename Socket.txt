@@ -1,0 +1,7 @@
+Socket = é uma requisição que é uma conexão "permanente" que voce estabelece com o servidor . Sendo permanente esta conexão tem como voce mandar sinais para o servidor , e o servidor mandar sinais para voce. E ao final que voce ou o servidor manda o sinal , esta conexão não se encerra ela fica ativa.
+
+Para que serve socket?
+ - Serve para manter dados em tempo real.
+ - Para troca de informações entre cliente(aplicativos, navegadores) e servidor sem que o servidor se encerre.
+
+Para ter um socket  entre os 2 lados tem que ter um mini-sistema/aplicação , uma aplicação funcionando dos 2 lados para que eles se comuniquem atraves desse sistema.
