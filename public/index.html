@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,30 @@
     <link rel="stylesheet" href="stylestyle.css">
 </head>
 <body>
-    <h1>Chat</h1>
+    <div class="page" id="loginPage">
+        <h1>Qual seu nome? </h1>
+        <input type="text" id="loginNameInput">
+    </div>
+
+    <div class="page" id="chatPage">
+        <div  class="chatArea">
+            <ul class="chatList">
+                <li class="m-status">Fulano entrou na sala</li>
+                <li class="m-status">Fulano saiu da sala</li>
+                <li class="m-txt"><span class="me">Renan</span>Opa, tudo bem?</li>
+                <li class="m-txt"><span>Paulo</span>Opa, tudo bem?</li>
+            </ul>
+            <ul class="userList">
+                <li>Renan</li>
+                <li>Fulano</li>
+                <li>Ciclano</li>
+            </ul>
+        </div>
+
+        <div class="chatInput">
+            <input type="text" id="chatTextInput" placeholder="Digite uma mensagem e APERTE ENTER">
+            
+        </div>
+    </div>
 </body>
 </html>
